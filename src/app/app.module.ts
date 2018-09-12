@@ -5,6 +5,8 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { HttpModule } from '@angular/http';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -20,6 +22,9 @@ import { OrganizacoesPage } from '../pages/organizacoes/organizacoes';
 import { NoticiaPage } from '../pages/noticia/noticia';
 import { AboutPage } from '../pages/about/about';
 import { ComprovantePPage } from '../pages/comprovante-p/comprovante-p';
+import { MoovieProvider } from '../providers/moovie/moovie';
+import { IntroPage } from '../pages/intro/intro';
+import { IntroPageModule } from '../pages/intro/intro.module';
 
 @NgModule({
   declarations: [
@@ -38,10 +43,13 @@ import { ComprovantePPage } from '../pages/comprovante-p/comprovante-p';
     NoticiaPage,
     AboutPage,
     ComprovantePPage,
+    
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    IntroPageModule,
+    HttpModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -60,11 +68,13 @@ import { ComprovantePPage } from '../pages/comprovante-p/comprovante-p';
     NoticiaPage,
     AboutPage,
     ComprovantePPage,
+    
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    MoovieProvider
   ]
 })
 export class AppModule {}

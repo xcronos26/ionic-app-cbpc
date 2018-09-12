@@ -4,6 +4,7 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
 
 
 
+
 /**
  * Generated class for the ComprovantePPage page.
  *
@@ -18,20 +19,23 @@ import { Camera, CameraOptions } from '@ionic-native/camera';
   providers: [
     Camera
   ]
+
 })
 export class ComprovantePPage {
 
   //variaveis
   img = "";
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private camera: Camera) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,private camera: Camera) {
   }
 
   ionViewDidLoad() {
+   
     console.log('ionViewDidLoad ComprovantePPage');
   }
 
-  TirarFoto() {
+
+  TirarFoto(){
 
     const options: CameraOptions = {
       quality: 100,
@@ -39,17 +43,17 @@ export class ComprovantePPage {
       encodingType: this.camera.EncodingType.JPEG,
       mediaType: this.camera.MediaType.PICTURE
     }
-
+    
     this.camera.getPicture(options).then((imageData) => {
-      // imageData is either a base64 encoded string or a file URI
-      // If it's base64 (DATA_URL):
-      this.img = 'data:image/jpeg;base64,' + imageData;
+     // imageData is either a base64 encoded string or a file URI
+     // If it's base64 (DATA_URL):
+     this.img = 'data:image/jpeg;base64,' + imageData;
     }, (err) => {
-      // Handle error
+     // Handle error
     });
-
-
   }
+ 
+  
 
 
 

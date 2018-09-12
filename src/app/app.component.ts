@@ -16,7 +16,7 @@ import { ContatoPage } from '../pages/contato/contato';
 import { OrganizacoesPage } from '../pages/organizacoes/organizacoes';
 import { NoticiaPage } from '../pages/noticia/noticia';
 import { AboutPage } from '../pages/about/about';
-import { ComprovantePPage } from '../pages/comprovante-p/comprovante-p';
+import { IntroPage } from '../pages/intro/intro';
 
 @Component({
   templateUrl: 'app.html'
@@ -24,7 +24,7 @@ import { ComprovantePPage } from '../pages/comprovante-p/comprovante-p';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = IntroPage;
 
   pages: Array<{title: string, component: any}>;
 
