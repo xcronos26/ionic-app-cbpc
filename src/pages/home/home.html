@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>CBPC</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <p> A CBPC quer conhecer mais você. <br> qual o seu nome?
+    </p>
+    <ion-item>
+      <ion-label floating>Seu Nome</ion-label>
+      <ion-input [(ngModel)]="name"  type="text" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+    <button ion-button secondary (click)="Notificacao()">Enviar</button>
+</ion-content>

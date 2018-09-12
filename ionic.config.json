@@ -1,0 +1,7 @@
+{
+  "name": "cbpc",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

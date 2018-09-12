@@ -1,0 +1,26 @@
+page-noticia {
+
+    .lugarcerto {
+        display: inline-block;
+        width: 29%;
+        box-shadow: none;
+      }
+                  
+      ion-card {
+        position: relative;
+        text-align: center;
+        width: 150px;
+        }
+          
+      .card-title {
+        position: absolute;
+        top: 36%;
+        font-size:20px;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+        }
+    
+          
+
+}
