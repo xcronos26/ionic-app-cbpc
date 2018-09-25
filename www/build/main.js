@@ -79,7 +79,7 @@ var AgendaPage = /** @class */ (function () {
     };
     AgendaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-agenda',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\agenda\agenda.html"*/'<!--\n  Generated template for the AgendaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Agenda</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\agenda\agenda.html"*/,
+            selector: 'page-agenda',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\agenda\agenda.html"*/'<!--\n  Generated template for the AgendaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Agenda</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content >\n\n  \n\n    <ion-list>\n        <ion-item>\n          <ion-thumbnail item-start>\n            <img src="img/thumbnail-totoro.png">\n          </ion-thumbnail>\n          <h2>My Neighbor Totoro</h2>\n          <p>Hayao Miyazaki • 1988</p>\n          <button ion-button clear item-end>View</button>\n        </ion-item>\n      </ion-list>\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\agenda\agenda.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], AgendaPage);
@@ -179,11 +179,12 @@ var AtualizePage = /** @class */ (function () {
     };
     AtualizePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-atualize',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/'<!--\n  Generated template for the AtualizePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n      <button ion-button menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n    <ion-title>Atualize</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/,
+            selector: 'page-atualize',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/'<!--\n  Generated template for the AtualizePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n      <button ion-button menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n    <ion-title>Atualize</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n  <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">\n    {{ item }}\n  </button>  \n</ion-list>\n</ion-content>\n'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
     ], AtualizePage);
     return AtualizePage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=atualize.js.map
@@ -842,7 +843,7 @@ var ListPage = /** @class */ (function () {
         }
     }
     ListPage_1 = ListPage;
-    ListPage.prototype.itemTapped = function (event, item) {
+    ListPage.prototype.itemTapped = function (item) {
         // That's right, we're pushing to ourselves!
         this.navCtrl.push(ListPage_1, {
             item: item
@@ -852,10 +853,10 @@ var ListPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-list',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\list\list.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>nada</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n      {{item.title}}\n      <div class="item-note" item-end>\n        {{item.note}}\n      </div>\n    </button>\n  </ion-list>\n  <div *ngIf="selectedItem" padding>\n    You navigated here from <b>{{selectedItem.title}}</b>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\list\list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
     ], ListPage);
     return ListPage;
-    var ListPage_1;
+    var ListPage_1, _a, _b;
 }());
 
 //# sourceMappingURL=list.js.map
@@ -1149,7 +1150,7 @@ var ConfigProvider = /** @class */ (function () {
     function ConfigProvider() {
         this.config = {
             showSlide: false,
-            name: "",
+            name: "name",
             username: ""
         };
     }
@@ -1266,7 +1267,7 @@ var NoticiaPage = /** @class */ (function () {
     };
     NoticiaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-noticia',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/'<!--\n  Generated template for the NoticiaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Noticia</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n<h1>olá {{ NomeUsr }}</h1>\n\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/ore-thumb.png" />\n    <div class="card-title">Ore+</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/voc-thumb.png" />\n    <div class="card-title">Vocatio</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/aqf-thumb.png" />\n    <div class="card-title">Amor Que Faz</div>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/a.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/,
+            selector: 'page-noticia',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/'<!--\n  Generated template for the NoticiaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Noticia</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <h1>olá {{ NomeUsr }}</h1>\n\n  <ion-card>\n    <img src="assets/imgs/l.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/p.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/a.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n    <img width="500px" src="assets/imgs/ore-thumb.png" />\n    <div class="card-title">Ore+</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/voc-thumb.png" />\n    <div class="card-title">Vocatio</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/aqf-thumb.png" />\n    <div class="card-title">Amor Que Faz</div>\n  </ion-card>\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
     ], NoticiaPage);

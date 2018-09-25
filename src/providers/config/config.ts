@@ -8,7 +8,7 @@ export class ConfigProvider {
   
   config = {
     showSlide: false,
-    name: "",
+    name: "name",
     username: ""
   }
 
@@ -20,8 +20,6 @@ export class ConfigProvider {
   // recupera os dados do localstorage
   getConfigData(): any {
     return localStorage.getItem(config_key_name);
-
-
   }
 
 

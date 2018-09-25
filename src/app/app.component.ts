@@ -72,6 +72,8 @@ export class MyApp {
         this.configProvider.setConfigData(false);
       }else{
         this.rootPage = NoticiaPage;
+        
+        
       }
 
       console.log(config);
