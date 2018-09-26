@@ -15,6 +15,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class AtualizePage {
 
+  igreja:any[] = [
+    {nome:"pib aguas", end:"avenida silvio"},
+    {nome:"sib aguas", end:"avenida silvio"},
+    {nome:"tib aguas", end:"avenida silvio"},
+  ];
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
