@@ -12,13 +12,13 @@ import { map } from 'rxjs/operators';
 */
 @Injectable()
 export class ServidorProvider {
-  url:string;
+  url:string= "http://localhost/phpp/";
 
-  constructor(public http: HttpClient) {
+  constructor(public http: Http) {
     console.log('Hello ServidorProvider Provider');
   }
 
   getPegar(){
-    return this.http.get('').pipe(map(res => res));
+    return this.http.get(this.url+'dados.php').pipe(map(res => res.json()));
   }
 }

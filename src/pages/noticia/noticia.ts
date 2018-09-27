@@ -1,12 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the NoticiaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ServidorProvider } from '../../providers/servidor/servidor';
 
 @IonicPage()
 @Component({
@@ -15,15 +9,27 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class NoticiaPage {
   NomeUsr:string;
-  
-  
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  contatos:any;
 
-  this.NomeUsr = this.navParams.get('name');
+  constructor(
+    public navCtrl: NavController, 
+    public navParams: NavParams, 
+    public servidor:ServidorProvider
+    ) {
+    this.getRetornar();
+    this.NomeUsr = this.navParams.get('name');
   console.log(name);
 
   }
+  getRetornar(){
 
+    this.servidor.getPegar()
+    .subscribe(
+       data => this.contatos = data,
+       err => console.log(err)
+     );
+
+  }
   
 
   ionViewDidLoad() {

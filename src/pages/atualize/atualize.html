@@ -18,10 +18,10 @@
 
 <ion-content padding>
   <ion-list>
-  <button ion-item *ngFor="let item of igreja" (click)="AbreInfo(item)" >
-    {{ item.nome }}
+  <button ion-item *ngFor="let igreja of igrejas" (click)="AbreInfo()" >
+   <h3>{{ igreja.nome }}</h3>
     <h3>endereços</h3>
-    {{item.end}}
+    {{igreja.endIg}}
   </button>  
 </ion-list>
 </ion-content>

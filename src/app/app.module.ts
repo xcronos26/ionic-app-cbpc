@@ -26,6 +26,7 @@ import { MoovieProvider } from '../providers/moovie/moovie';
 import { IntroPage } from '../pages/intro/intro';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { InfoIgrejaPage } from '../pages/info-igreja/info-igreja';
+import { ServidorProvider } from '../providers/servidor/servidor';
 
 
 
@@ -83,7 +84,7 @@ import { InfoIgrejaPage } from '../pages/info-igreja/info-igreja';
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     MoovieProvider,
-  
+    ServidorProvider,
   ]
 })
 export class AppModule {}
