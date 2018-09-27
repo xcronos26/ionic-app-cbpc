@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+
+import { InfoIgrejaPage } from '../info-igreja/info-igreja';
+
 /**
  * Generated class for the AtualizePage page.
  *
@@ -51,4 +54,14 @@ export class AtualizePage {
   itemSelected(item: string) {
     console.log("Selected Item", item);
   }*/
+
+
+  AbreInfo(item:any){
+
+    this.navCtrl.push(InfoIgrejaPage,{
+      info:item
+    });
+
+  }
 }
+

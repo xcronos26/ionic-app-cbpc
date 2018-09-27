@@ -25,6 +25,11 @@ import { ComprovantePPage } from '../pages/comprovante-p/comprovante-p';
 import { MoovieProvider } from '../providers/moovie/moovie';
 import { IntroPage } from '../pages/intro/intro';
 import { IntroPageModule } from '../pages/intro/intro.module';
+import { InfoIgrejaPage } from '../pages/info-igreja/info-igreja';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -43,6 +48,8 @@ import { IntroPageModule } from '../pages/intro/intro.module';
     NoticiaPage,
     AboutPage,
     ComprovantePPage,
+    InfoIgrejaPage,
+    
     
   ],
   imports: [
@@ -68,13 +75,15 @@ import { IntroPageModule } from '../pages/intro/intro.module';
     NoticiaPage,
     AboutPage,
     ComprovantePPage,
+    InfoIgrejaPage,
     
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    MoovieProvider
+    MoovieProvider,
+  
   ]
 })
 export class AppModule {}

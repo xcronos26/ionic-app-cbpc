@@ -1,14 +1,14 @@
 webpackJsonp([8],{
 
-/***/ 296:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AtualizePageModule", function() { return AtualizePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ComprovantePPageModule", function() { return ComprovantePPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__atualize__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comprovante_p__ = __webpack_require__(104);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AtualizePageModule = /** @class */ (function () {
-    function AtualizePageModule() {
+var ComprovantePPageModule = /** @class */ (function () {
+    function ComprovantePPageModule() {
     }
-    AtualizePageModule = __decorate([
+    ComprovantePPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__atualize__["a" /* AtualizePage */],
+                __WEBPACK_IMPORTED_MODULE_2__comprovante_p__["a" /* ComprovantePPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__atualize__["a" /* AtualizePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__comprovante_p__["a" /* ComprovantePPage */]),
             ],
         })
-    ], AtualizePageModule);
-    return AtualizePageModule;
+    ], ComprovantePPageModule);
+    return ComprovantePPageModule;
 }());
 
-//# sourceMappingURL=atualize.module.js.map
+//# sourceMappingURL=comprovante-p.module.js.map
 
 /***/ })
 

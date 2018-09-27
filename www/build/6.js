@@ -1,14 +1,14 @@
 webpackJsonp([6],{
 
-/***/ 298:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContatoPageModule", function() { return ContatoPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FinanceiroPageModule", function() { return FinanceiroPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__contato__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__financeiro__ = __webpack_require__(106);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ContatoPageModule = /** @class */ (function () {
-    function ContatoPageModule() {
+var FinanceiroPageModule = /** @class */ (function () {
+    function FinanceiroPageModule() {
     }
-    ContatoPageModule = __decorate([
+    FinanceiroPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__contato__["a" /* ContatoPage */],
+                __WEBPACK_IMPORTED_MODULE_2__financeiro__["a" /* FinanceiroPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__contato__["a" /* ContatoPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__financeiro__["a" /* FinanceiroPage */]),
             ],
         })
-    ], ContatoPageModule);
-    return ContatoPageModule;
+    ], FinanceiroPageModule);
+    return FinanceiroPageModule;
 }());
 
-//# sourceMappingURL=contato.module.js.map
+//# sourceMappingURL=financeiro.module.js.map
 
 /***/ })
 
