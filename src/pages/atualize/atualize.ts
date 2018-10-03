@@ -38,10 +38,10 @@ export class AtualizePage {
   }
     
 
-  AbreInfo(item:any){
+  AbreInfo(igreja:any){
 
     this.navCtrl.push(InfoIgrejaPage,{
-      info:item
+      igreja:igreja
     });
 
   }

@@ -1,6 +1,6 @@
 webpackJsonp([13],{
 
-/***/ 126:
+/***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45,7 +45,7 @@ var AboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 127:
+/***/ 128:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -90,7 +90,7 @@ var AgendaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 128:
+/***/ 129:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -145,14 +145,15 @@ var AmorQueFazPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 129:
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AtualizePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_igreja_info_igreja__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info_igreja_info_igreja__ = __webpack_require__(131);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -165,58 +166,34 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-/**
- * Generated class for the AtualizePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 var AtualizePage = /** @class */ (function () {
-    function AtualizePage(navCtrl, navParams) {
+    function AtualizePage(navCtrl, navParams, servidor) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
-        this.igreja = [
-            { nome: "pib aguas", end: "avenida silvio" },
-            { nome: "sib aguas", end: "avenida silvio" },
-            { nome: "tib aguas", end: "avenida silvio" },
-        ];
+        this.servidor = servidor;
+        this.getRetornar();
     }
+    AtualizePage.prototype.getRetornar = function () {
+        var _this = this;
+        this.servidor.getPegar()
+            .subscribe(function (data) { return _this.igrejas = data; }, function (err) { return console.log(err); });
+    };
     AtualizePage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad AtualizePage');
     };
-    /*
-      items = [
-        'Pokémon Yellow',
-        'Super Metroid',
-        'Mega Man X',
-        'The Legend of Zelda',
-        'Pac-Man',
-        'Super Mario World',
-        'Street Fighter II',
-        'Half Life',
-        'Final Fantasy VII',
-        'Star Fox',
-        'Tetris',
-        'Donkey Kong III',
-        'GoldenEye 007',
-        'Doom',
-        'Fallout',
-        'GTA',
-        'Halo'
-      ];
-      itemSelected(item: string) {
-        console.log("Selected Item", item);
-      }*/
-    AtualizePage.prototype.AbreInfo = function (item) {
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__info_igreja_info_igreja__["a" /* InfoIgrejaPage */], {
-            info: item
+    AtualizePage.prototype.AbreInfo = function (igreja) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__info_igreja_info_igreja__["a" /* InfoIgrejaPage */], {
+            igreja: igreja
         });
     };
     AtualizePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-atualize',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/'<!--\n  Generated template for the AtualizePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n      <button ion-button menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n    <ion-title>Atualize</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n  <button ion-item *ngFor="let igreja of igrejas" (click)="AbreInfo()" >\n   <h3>{{ igreja.nome }}</h3>\n    <h3>endereços</h3>\n    {{igreja.endIg}}\n  </button>  \n</ion-list>\n</ion-content>\n'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/,
+            selector: 'page-atualize',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/'<!--\n  Generated template for the AtualizePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n      <button ion-button menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n    <ion-title>Atualize</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  \n  <ion-list>\n    <ion-item *ngFor="let igreja of igrejas">\n      \n        \n   \n      <h2>{{igreja.nome}}</h2>\n      <p>{{igreja.endereco}}</p>\n    </ion-item>\n  </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\atualize\atualize.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__["a" /* ServidorProvider */]])
     ], AtualizePage);
     return AtualizePage;
 }());
@@ -225,7 +202,7 @@ var AtualizePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 130:
+/***/ 131:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -271,14 +248,14 @@ var InfoIgrejaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 131:
+/***/ 132:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComprovantePPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(386);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -340,7 +317,7 @@ var ComprovantePPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 132:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -385,14 +362,14 @@ var ContatoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 133:
+/***/ 134:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinanceiroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comprovante_p_comprovante_p__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comprovante_p_comprovante_p__ = __webpack_require__(132);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -464,7 +441,7 @@ var FinanceiroPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 134:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -509,7 +486,7 @@ var InscriçõesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 135:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -564,7 +541,7 @@ var OrePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 136:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -609,7 +586,7 @@ var OrganizacoesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 137:
+/***/ 138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -654,7 +631,7 @@ var VocatioPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 148:
+/***/ 149:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -667,11 +644,11 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 148;
+webpackEmptyAsyncContext.id = 149;
 
 /***/ }),
 
-/***/ 192:
+/***/ 193:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -712,7 +689,7 @@ var map = {
 		4
 	],
 	"../pages/intro/intro.module": [
-		194
+		213
 	],
 	"../pages/noticia/noticia.module": [
 		426,
@@ -742,12 +719,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 192;
+webpackAsyncContext.id = 193;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 194:
+/***/ 213:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -755,7 +732,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro__ = __webpack_require__(214);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -785,14 +762,14 @@ var IntroPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 195:
+/***/ 214:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(215);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -835,7 +812,7 @@ var IntroPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 196:
+/***/ 215:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -886,53 +863,6 @@ var HomePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=home.js.map
-
-/***/ }),
-
-/***/ 197:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServidorProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(296);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/*
-  Generated class for the ServidorProvider provider.
-
-  See https://angular.io/guide/dependency-injection for more info on providers
-  and Angular DI.
-*/
-var ServidorProvider = /** @class */ (function () {
-    function ServidorProvider(http) {
-        this.http = http;
-        this.url = "http://localhost/phpp/";
-        console.log('Hello ServidorProvider Provider');
-    }
-    ServidorProvider.prototype.getPegar = function () {
-        return this.http.get(this.url + 'dados.php').pipe(Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["map"])(function (res) { return res.json(); }));
-    };
-    ServidorProvider = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
-    ], ServidorProvider);
-    return ServidorProvider;
-}());
-
-//# sourceMappingURL=servidor.js.map
 
 /***/ }),
 
@@ -1017,27 +947,27 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(411);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(215);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__ = __webpack_require__(256);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_amor_que_faz_amor_que_faz__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_vocatio_vocatio__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_ore_ore__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_financeiro_financeiro__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_agenda_agenda__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_inscri_es_inscri_es__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_atualize_atualize__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_contato_contato__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_organizacoes_organizacoes__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_amor_que_faz_amor_que_faz__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_vocatio_vocatio__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_ore_ore__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_financeiro_financeiro__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_agenda_agenda__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_inscri_es_inscri_es__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_atualize_atualize__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_contato_contato__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_organizacoes_organizacoes__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_noticia_noticia__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_about__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_comprovante_p_comprovante_p__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_about__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_comprovante_p_comprovante_p__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_moovie_moovie__ = __webpack_require__(413);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_intro_intro_module__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_info_igreja_info_igreja__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_servidor_servidor__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_intro_intro_module__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_info_igreja_info_igreja__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_servidor_servidor__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1105,8 +1035,8 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/financeiro/financeiro.module#FinanceiroPageModule', name: 'FinanceiroPage', segment: 'financeiro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info-igreja/info-igreja.module#InfoIgrejaPageModule', name: 'InfoIgrejaPage', segment: 'info-igreja', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inscrições/inscrições.module#InscriçõesPageModule', name: 'InscriçõesPage', segment: 'inscrições', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/intro/intro.module#IntroPageModule', name: 'IntroPage', segment: 'intro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/noticia/noticia.module#NoticiaPageModule', name: 'NoticiaPage', segment: 'noticia', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/intro/intro.module#IntroPageModule', name: 'IntroPage', segment: 'intro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ore/ore.module#OrePageModule', name: 'OrePage', segment: 'ore', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/organizacoes/organizacoes.module#OrganizacoesPageModule', name: 'OrganizacoesPage', segment: 'organizacoes', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/vocatio/vocatio.module#VocatioPageModule', name: 'VocatioPage', segment: 'vocatio', priority: 'low', defaultHistory: [] }
@@ -1160,18 +1090,18 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(255);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(256);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_list_list__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_amor_que_faz_amor_que_faz__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_vocatio_vocatio__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ore_ore__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_financeiro_financeiro__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_agenda_agenda__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_inscri_es_inscri_es__ = __webpack_require__(134);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_atualize_atualize__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contato_contato__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_organizacoes_organizacoes__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_amor_que_faz_amor_que_faz__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_vocatio_vocatio__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ore_ore__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_financeiro_financeiro__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_agenda_agenda__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_inscri_es_inscri_es__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_atualize_atualize__ = __webpack_require__(130);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contato_contato__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_organizacoes_organizacoes__ = __webpack_require__(137);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_noticia_noticia__ = __webpack_require__(66);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(126);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_intro_intro__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(127);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_intro_intro__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_config_config__ = __webpack_require__(412);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1377,7 +1307,7 @@ var MoovieProvider = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NoticiaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1390,12 +1320,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
-/**
- * Generated class for the NoticiaPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 var NoticiaPage = /** @class */ (function () {
     function NoticiaPage(navCtrl, navParams, servidor) {
         this.navCtrl = navCtrl;
@@ -1415,14 +1339,63 @@ var NoticiaPage = /** @class */ (function () {
     };
     NoticiaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-noticia',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/'<!--\n  Generated template for the NoticiaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Noticia</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <h1>olá {{ NomeUsr }}</h1>\n\n \n\n\n  <ion-card>\n    <img src="assets/imgs/l.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/p.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/a.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n    <img width="500px" src="assets/imgs/ore-thumb.png" />\n    <div class="card-title">Ore+</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/voc-thumb.png" />\n    <div class="card-title">Vocatio</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/aqf-thumb.png" />\n    <div class="card-title">Amor Que Faz</div>\n  </ion-card>\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/,
+            selector: 'page-noticia',template:/*ion-inline-start:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/'<!--\n  Generated template for the NoticiaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Noticia</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <h1>olá {{ NomeUsr }}</h1>\n\n    \n  \n\n  <ion-card>\n    <img src="assets/imgs/l.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/p.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n  <ion-card>\n    <img src="assets/imgs/a.jpg" />\n    <ion-card-content>\n      <ion-card-title>\n        o Mal dos Games em ecesso\n      </ion-card-title>\n      <p>\n        The most popular industrial group ever, and largely\n        responsible for bringing the music to a mass audience.\n      </p>\n      <ion-item>\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n        Followers\n        <ion-badge item-end>260k</ion-badge>\n      </ion-item>\n    </ion-card-content>\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n    <img width="500px" src="assets/imgs/ore-thumb.png" />\n    <div class="card-title">Ore+</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/voc-thumb.png" />\n    <div class="card-title">Vocatio</div>\n  </ion-card>\n\n  <ion-card class="lugarcerto">\n    <img src="assets/imgs/aqf-thumb.png" />\n    <div class="card-title">Amor Que Faz</div>\n  </ion-card>\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\cbpc\src\pages\noticia\noticia.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__["a" /* ServidorProvider */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__["a" /* ServidorProvider */]])
     ], NoticiaPage);
     return NoticiaPage;
 }());
 
 //# sourceMappingURL=noticia.js.map
+
+/***/ }),
+
+/***/ 97:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServidorProvider; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the ServidorProvider provider.
+
+  See https://angular.io/guide/dependency-injection for more info on providers
+  and Angular DI.
+*/
+var ServidorProvider = /** @class */ (function () {
+    function ServidorProvider(http) {
+        this.http = http;
+        this.url = "http://cbpc.org.br/phpp/";
+        console.log('Hello ServidorProvider Provider');
+    }
+    ServidorProvider.prototype.getPegar = function () {
+        return this.http.get(this.url + 'buscarIg.php').pipe(Object(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__["map"])(function (res) { return res.json(); }));
+    };
+    ServidorProvider = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Http */]])
+    ], ServidorProvider);
+    return ServidorProvider;
+}());
+
+//# sourceMappingURL=servidor.js.map
 
 /***/ })
 
