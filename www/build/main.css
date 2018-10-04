@@ -25679,7 +25679,7 @@ ion-navbar.toolbar {
 }
 
 page-about h2, page-about h3, page-about h4, page-about p {
-  text-align: center;
+  text-align: left;
 }
 
 page-amor-que-faz h2, page-amor-que-faz h3 {
@@ -25687,7 +25687,7 @@ page-amor-que-faz h2, page-amor-que-faz h3 {
 }
 
 page-contato h2, page-contato h3, page-contato p {
-  text-align: center;
+  text-align: left;
 }
 
 page-financeiro h2, page-financeiro h3 {
