@@ -19,13 +19,13 @@
 <ion-content padding>
   
   <ion-list>
-    <ion-item *ngFor="let igreja of igrejas">
+    <button ion-item *ngFor="let igreja of igrejas" (click)="AbreInfo(igreja)">
       
         
    
       <h2>{{igreja.nome}}</h2>
       <p>{{igreja.endereco}}</p>
-    </ion-item>
+    </button>
   </ion-list>
 
 </ion-content>

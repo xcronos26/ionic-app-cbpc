@@ -14,10 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'info-igreja.html',
 })
 export class InfoIgrejaPage {
-  info:any;
+  igreja:any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.info = this.navParams.get('info');
+    this.igreja = this.navParams.get('igreja');
   
   }
 
