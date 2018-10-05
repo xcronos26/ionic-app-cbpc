@@ -27,8 +27,10 @@ import { IntroPage } from '../pages/intro/intro';
 import { IntroPageModule } from '../pages/intro/intro.module';
 import { InfoIgrejaPage } from '../pages/info-igreja/info-igreja';
 import { ServidorProvider } from '../providers/servidor/servidor';
-
-
+import { CfoPage } from '../pages/cfo/cfo';
+import { CapelaniaPage } from '../pages/capelania/capelania';
+import { InglesPage } from '../pages/ingles/ingles';
+import { VocatioIgrejaPage } from '../pages/vocatio-igreja/vocatio-igreja';
 
 
 
@@ -50,7 +52,10 @@ import { ServidorProvider } from '../providers/servidor/servidor';
     AboutPage,
     ComprovantePPage,
     InfoIgrejaPage,
-    
+    CfoPage,
+    CapelaniaPage,
+    InglesPage,
+    VocatioIgrejaPage
     
   ],
   imports: [
@@ -77,6 +82,10 @@ import { ServidorProvider } from '../providers/servidor/servidor';
     AboutPage,
     ComprovantePPage,
     InfoIgrejaPage,
+    CfoPage,
+    CapelaniaPage,
+    InglesPage,
+    VocatioIgrejaPage
     
   ],
   providers: [

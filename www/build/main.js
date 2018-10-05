@@ -1,4 +1,4 @@
-webpackJsonp([13],{
+webpackJsonp([17],{
 
 /***/ 127:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -6,7 +6,7 @@ webpackJsonp([13],{
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AboutPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -34,9 +34,9 @@ var AboutPage = /** @class */ (function () {
     };
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\about\about.html"*/'<!--\n\n  Generated template for the AboutPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Sobre</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n<h3>Convenção Batista do Planalto Central</h3>\n\n<p>\n\n  A Convenção Batista do Planalto Central (CBPC) é uma organização religiosa, sem fins lucrativos, empenhada na promoção integral do ser humano, constituída em 22 de julho de 1960, por tempo indeterminado e número ilimitado de igrejas, na cidade de Brasília-DF, onde tem sede e foro.\n\n</p>\n\n<h3>Corpo funcional</h3>\n\n<h4>Presidente</h4>\n\n<p>Pr. Hércio Fonsêca</p>\n\n<h4>Diretor Executivo</h4>\n\n<p>Pr. Robério Soares</p>\n\n<h4>Assessoria Executiva</h4>\n\n<p>Lucas Rebouças</p>\n\n<h4>Financeiro</h4>\n\n<p>Pr. Filipe Zaponi<br> Edvaldo Rocha</p>\n\n<h4>Comunicação</h4>\n\n<p>Adenildo Souza<br>Lucas Nunes</p>\n\n<h4>Apoio Operacional</h4>\n\n<p>Daniel</p>\n\n<h4>Estágiario</h4>\n\n<p>João Pedro</p><br><br>\n\n\n\n<h4>Desenvolvedores</h4>\n\n<p>Lucas Nunes<br>Rebeca de Castro Câmara</p>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\about\about.html"*/,
+            selector: 'page-about',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\about\about.html"*/'<!--\n\n  Generated template for the AboutPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Sobre</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n<h3>Convenção Batista do Planalto Central</h3>\n\n<p>\n\n  A Convenção Batista do Planalto Central (CBPC) é uma organização religiosa, sem fins lucrativos, empenhada na promoção integral do ser humano, constituída em 22 de julho de 1960, por tempo indeterminado e número ilimitado de igrejas, na cidade de Brasília-DF, onde tem sede e foro.\n\n</p>\n\n<h3>Corpo funcional</h3>\n\n<h4>Presidente</h4>\n\n<p>Pr. Hércio Fonsêca</p>\n\n<h4>Diretor Executivo</h4>\n\n<p>Pr. Robério Soares</p>\n\n<h4>Assessoria Executiva</h4>\n\n<p>Lucas Rebouças</p>\n\n<h4>Financeiro</h4>\n\n<p>Pr. Filipe Zaponi<br> Edvaldo Rocha</p>\n\n<h4>Comunicação</h4>\n\n<p>Adenildo Souza<br>Lucas Nunes</p>\n\n<h4>Apoio Operacional</h4>\n\n<p>Daniel</p>\n\n<h4>Estágiario</h4>\n\n<p>João Pedro</p><br><br>\n\n\n\n<h4>Desenvolvedores</h4>\n\n<p>Lucas Nunes<br>Rebeca de Castro Câmara</p>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\about\about.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], AboutPage);
     return AboutPage;
 }());
@@ -51,7 +51,7 @@ var AboutPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AgendaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -79,9 +79,9 @@ var AgendaPage = /** @class */ (function () {
     };
     AgendaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-agenda',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\agenda\agenda.html"*/'<!--\n\n  Generated template for the AgendaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Agenda</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content >\n\n\n\n  \n\n\n\n    <ion-list>\n\n        <ion-item>\n\n          <ion-thumbnail item-start>\n\n            <img src="img/thumbnail-totoro.png">\n\n          </ion-thumbnail>\n\n          <h2>My Neighbor Totoro</h2>\n\n          <p>Hayao Miyazaki • 1988</p>\n\n          <button ion-button clear item-end>View</button>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\agenda\agenda.html"*/,
+            selector: 'page-agenda',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\agenda\agenda.html"*/'<!--\n\n  Generated template for the AgendaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Agenda</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content >\n\n\n\n  \n\n\n\n    <ion-list>\n\n        <ion-item>\n\n          <ion-thumbnail item-start>\n\n            <img src="img/thumbnail-totoro.png">\n\n          </ion-thumbnail>\n\n          <h2>My Neighbor Totoro</h2>\n\n          <p>Hayao Miyazaki • 1988</p>\n\n          <button ion-button clear item-end>View</button>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\agenda\agenda.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], AgendaPage);
     return AgendaPage;
 }());
@@ -96,7 +96,7 @@ var AgendaPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AmorQueFazPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -134,9 +134,9 @@ var AmorQueFazPage = /** @class */ (function () {
     };
     AmorQueFazPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-amor-que-faz',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\amor-que-faz\amor-que-faz.html"*/'<!--\n\n  Generated template for the AmorQueFazPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>AmorQueFaz</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n\n\n  <h2>Proxima Viagem AQF</h2>\n\n  <ion-card>\n\n    <img src="assets/imgs/g.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Manaus\n\n      </ion-card-title>\n\n      <p>\n\n        essa vai ser topzeira\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n\n\n\n\n\n\n  \n\n  <!-- ------------------------------- formulário de envio de doação--------------------- -->\n\n\n\n  <h3>Quer fazer parte e ajudar o aqf??? <br>você também pode fazer uma doação para o Projeto</h3>\n\n\n\n\n\n  <ion-list>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Nome Completo</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Igreja</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Data de Nascimento</ion-label>\n\n      <ion-input type="Date" value=" "></ion-input>\n\n    </ion-item><br>\n\n    <br>\n\n\n\n    <label>Qaul Projeto você deseja ajudar</label>\n\n    <!-- Radios  -->\n\n    <ion-item>\n\n      <ion-label>AQF Evangelismo (viagens Missionárias, Evangelismo Urbano)</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>AQF Capelania (Hospital, Abrigos e Presidios)</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>AQF Construir (Capelas, Igrejas e Reformas)</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item><br><br><br>\n\n    <label>Qual outro porjeto há em seu coração?(opcional)</label>\n\n    <ion-item>\n\n      <ion-label floating>Digite aqui o seu projeto</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item><br><br>\n\n\n\n\n\n\n\n    <!--  Fim dos Radios  -->\n\n    <!-- tipo de participação  -->\n\n    <label floating>Como Deseja participar?</label>\n\n    <ion-item>\n\n      <ion-label>Orando e intercedendo Pelos missionários do campo do Planalto Central</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>Indo ao Campo como Missionário Voluntário</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>Mobilizando e sendo um missionário na minha igreja</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <!--  fim das participações  --> <br>\n\n    <ion-item>\n\n      <ion-label floating>CEP</ion-label>\n\n      <ion-input type="number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Endereço</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Complemento</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>RG/CPF</ion-label>\n\n      <ion-input type="number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Celular</ion-label>\n\n      <ion-input type="number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Email</ion-label>\n\n      <ion-input type="Email"></ion-input>\n\n    </ion-item>\n\n\n\n    <br><br>\n\n    <button ion-button color="light" round (click)="showAlert()">Enviar Pedido</button>\n\n  </ion-list>\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\amor-que-faz\amor-que-faz.html"*/,
+            selector: 'page-amor-que-faz',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\amor-que-faz\amor-que-faz.html"*/'<!--\n\n  Generated template for the AmorQueFazPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>AmorQueFaz</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n\n\n  <h2>Proxima Viagem AQF</h2>\n\n  <ion-card>\n\n    <img src="assets/imgs/g.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Manaus\n\n      </ion-card-title>\n\n      <p>\n\n        essa vai ser topzeira\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n\n\n\n\n\n\n  \n\n  <!-- ------------------------------- formulário de envio de doação--------------------- -->\n\n\n\n  <h3>Quer fazer parte e ajudar o aqf??? <br>você também pode fazer uma doação para o Projeto</h3>\n\n\n\n\n\n  <ion-list>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Nome Completo</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Igreja</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Data de Nascimento</ion-label>\n\n      <ion-input type="Date" value=" "></ion-input>\n\n    </ion-item><br>\n\n    <br>\n\n\n\n    <label>Qaul Projeto você deseja ajudar</label>\n\n    <!-- Radios  -->\n\n    <ion-item>\n\n      <ion-label>AQF Evangelismo (viagens Missionárias, Evangelismo Urbano)</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>AQF Capelania (Hospital, Abrigos e Presidios)</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>AQF Construir (Capelas, Igrejas e Reformas)</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item><br><br><br>\n\n    <label>Qual outro porjeto há em seu coração?(opcional)</label>\n\n    <ion-item>\n\n      <ion-label floating>Digite aqui o seu projeto</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item><br><br>\n\n\n\n\n\n\n\n    <!--  Fim dos Radios  -->\n\n    <!-- tipo de participação  -->\n\n    <label floating>Como Deseja participar?</label>\n\n    <ion-item>\n\n      <ion-label>Orando e intercedendo Pelos missionários do campo do Planalto Central</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>Indo ao Campo como Missionário Voluntário</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label>Mobilizando e sendo um missionário na minha igreja</ion-label>\n\n      <ion-checkbox color="light" checked="false"></ion-checkbox>\n\n    </ion-item>\n\n\n\n    <!--  fim das participações  --> <br>\n\n    <ion-item>\n\n      <ion-label floating>CEP</ion-label>\n\n      <ion-input type="number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Endereço</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Complemento</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>RG/CPF</ion-label>\n\n      <ion-input type="number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Celular</ion-label>\n\n      <ion-input type="number"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Email</ion-label>\n\n      <ion-input type="Email"></ion-input>\n\n    </ion-item>\n\n\n\n    <br><br>\n\n    <button ion-button color="light" round (click)="showAlert()">Enviar Pedido</button>\n\n  </ion-list>\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\amor-que-faz\amor-que-faz.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], AmorQueFazPage);
     return AmorQueFazPage;
 }());
@@ -151,7 +151,7 @@ var AmorQueFazPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AtualizePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__info_igreja_info_igreja__ = __webpack_require__(131);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -189,10 +189,10 @@ var AtualizePage = /** @class */ (function () {
     };
     AtualizePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-atualize',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\atualize\atualize.html"*/'<!--\n\n  Generated template for the AtualizePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Atualize</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  \n\n  <ion-list>\n\n    <button ion-item *ngFor="let igreja of igrejas" (click)="AbreInfo(igreja)">\n\n      \n\n        \n\n   \n\n      <h2>{{igreja.nome}}</h2>\n\n      <p>{{igreja.endereco}}</p>\n\n    </button>\n\n  </ion-list>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\atualize\atualize.html"*/,
+            selector: 'page-atualize',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\atualize\atualize.html"*/'<!--\n\n  Generated template for the AtualizePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Atualize</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  \n\n  <ion-list>\n\n    <button ion-item *ngFor="let igreja of igrejas" (click)="AbreInfo(igreja)">\n\n      \n\n        \n\n   \n\n      <h2>{{igreja.nome}}</h2>\n\n      <p>{{igreja.endereco}}</p>\n\n    </button>\n\n  </ion-list>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\atualize\atualize.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__["a" /* ServidorProvider */]])
     ], AtualizePage);
     return AtualizePage;
@@ -208,7 +208,7 @@ var AtualizePage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoIgrejaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -237,12 +237,11 @@ var InfoIgrejaPage = /** @class */ (function () {
     };
     InfoIgrejaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-info-igreja',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\info-igreja\info-igreja.html"*/'<!--\n\n  Generated template for the InfoIgrejaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>infoIgreja</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      {{igreja.nome}}\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Endereço<br>\n\n       {{igreja.endereco}}<br>\n\n       Pastor<br>\n\n       {{igreja.pastor}}<br>\n\n       Telefone<br>\n\n       {{igreja.tel}}\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\info-igreja\info-igreja.html"*/,
+            selector: 'page-info-igreja',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\info-igreja\info-igreja.html"*/'<!--\n\n  Generated template for the InfoIgrejaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>infoIgreja</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card>\n\n    <ion-card-header>\n\n      {{igreja.nome}}\n\n    </ion-card-header>\n\n    <ion-card-content>\n\n      Endereço<br>\n\n       {{igreja.endereco}}<br>\n\n       Pastor<br>\n\n       {{igreja.pastor}}<br>\n\n       Telefone<br>\n\n       {{igreja.tel}}\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\info-igreja\info-igreja.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], InfoIgrejaPage);
     return InfoIgrejaPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=info-igreja.js.map
@@ -253,10 +252,104 @@ var InfoIgrejaPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CapelaniaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CapelaniaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CapelaniaPage = /** @class */ (function () {
+    function CapelaniaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CapelaniaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CapelaniaPage');
+    };
+    CapelaniaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-capelania',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\capelania\capelania.html"*/'<!--\n  Generated template for the CapelaniaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Capelania</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\capelania\capelania.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], CapelaniaPage);
+    return CapelaniaPage;
+}());
+
+//# sourceMappingURL=capelania.js.map
+
+/***/ }),
+
+/***/ 133:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CfoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the CfoPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var CfoPage = /** @class */ (function () {
+    function CfoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    CfoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CfoPage');
+    };
+    CfoPage.prototype.dismiss = function () {
+        this.viewCtrl.dismiss();
+    };
+    CfoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cfo',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\cfo\cfo.html"*/'<!--\n  Generated template for the CfoPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>CFO</ion-title>\n    \n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\cfo\cfo.html"*/,
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object])
+    ], CfoPage);
+    return CfoPage;
+    var _a, _b;
+}());
+
+//# sourceMappingURL=cfo.js.map
+
+/***/ }),
+
+/***/ 134:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ComprovantePPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__ = __webpack_require__(390);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -304,12 +397,12 @@ var ComprovantePPage = /** @class */ (function () {
     };
     ComprovantePPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-comprovante-p',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\comprovante-p\comprovante-p.html"*/'<!--\n\n  Generated template for the ComprovantePPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Envio de Comprovante</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <img *ngIf="img" [src]="img" alt="">\n\n  <button ion-button block (click) = "TirarFoto()">enviar comprivante</button>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\comprovante-p\comprovante-p.html"*/,
+            selector: 'page-comprovante-p',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\comprovante-p\comprovante-p.html"*/'<!--\n\n  Generated template for the ComprovantePPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Envio de Comprovante</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <img *ngIf="img" [src]="img" alt="">\n\n  <button ion-button block (click) = "TirarFoto()">enviar comprivante</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\comprovante-p\comprovante-p.html"*/,
             providers: [
                 __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]
             ]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_camera__["a" /* Camera */]])
     ], ComprovantePPage);
     return ComprovantePPage;
 }());
@@ -318,13 +411,13 @@ var ComprovantePPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 133:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContatoPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -352,9 +445,9 @@ var ContatoPage = /** @class */ (function () {
     };
     ContatoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contato',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\contato\contato.html"*/'<!--\n\n  Generated template for the ContatoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Contato</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <h2>Acampamento Batista</h2>\n\n  <p>Tel: (61) 9 9958-7019</p>\n\n  <h2>Comunicação</h2>\n\n  <p>E-mail: falecom@cbpc.org.br<br>\n\n  Tel: (61) 9 9991-2190 (whatsapp)<br></p>\n\n  <h2>Financeiro</h2>\n\n  <p>E-mail: financeiro@cbpc.org.br<br>\n\n  Tel: (61) 9 9932-8910 (whatsapp)<br></p>\n\n  <h2>Logística</h2>\n\n  <p>E-mail: logistica@cbpc.org.br<br>\n\n  Tel: (61) 9 9958-7019 (whatsapp)<br></p>\n\n  <h2>Recepção</h2>\n\n  <p>E-mail: falecom@cbpc.org.br<br>\n\n  Tel: (61) 3349-5665 (fixo/whatsapp)<br></p>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\contato\contato.html"*/,
+            selector: 'page-contato',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\contato\contato.html"*/'<!--\n\n  Generated template for the ContatoPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Contato</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <h2>Acampamento Batista</h2>\n\n  <p>Tel: (61) 9 9958-7019</p>\n\n  <h2>Comunicação</h2>\n\n  <p>E-mail: falecom@cbpc.org.br<br>\n\n  Tel: (61) 9 9991-2190 (whatsapp)<br></p>\n\n  <h2>Financeiro</h2>\n\n  <p>E-mail: financeiro@cbpc.org.br<br>\n\n  Tel: (61) 9 9932-8910 (whatsapp)<br></p>\n\n  <h2>Logística</h2>\n\n  <p>E-mail: logistica@cbpc.org.br<br>\n\n  Tel: (61) 9 9958-7019 (whatsapp)<br></p>\n\n  <h2>Recepção</h2>\n\n  <p>E-mail: falecom@cbpc.org.br<br>\n\n  Tel: (61) 3349-5665 (fixo/whatsapp)<br></p>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\contato\contato.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], ContatoPage);
     return ContatoPage;
 }());
@@ -363,14 +456,14 @@ var ContatoPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 134:
+/***/ 136:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FinanceiroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comprovante_p_comprovante_p__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__comprovante_p_comprovante_p__ = __webpack_require__(134);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -431,9 +524,9 @@ var FinanceiroPage = /** @class */ (function () {
     };
     FinanceiroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-financeiro',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\financeiro\financeiro.html"*/'<!--\n\n  Generated template for the FinanceiroPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Financeiro</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <h2>o que podemos fazer por você?</h2>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/h.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Plano Cooperativo\n\n      </ion-card-title>\n\n      <p>\n\n        Enviar plano Cooperativo<br>\n\n        Enviar comprovante de pagamento<br>\n\n\n\n      </p>\n\n    </ion-card-content>\n\n    <button ion-button clear (click)="presentActionSheet()">Primary Clear</button>\n\n  </ion-card><br><br>\n\n  <h3> Contato Financeiro</h3>\n\n  <p>Email: financeiro@cpc.org.br<br>\n\n    Tel:(61) 9 9932-8910 (WhatsApp)<br> </p>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\financeiro\financeiro.html"*/,
+            selector: 'page-financeiro',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\financeiro\financeiro.html"*/'<!--\n\n  Generated template for the FinanceiroPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Financeiro</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <h2>o que podemos fazer por você?</h2>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/h.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Plano Cooperativo\n\n      </ion-card-title>\n\n      <p>\n\n        Enviar plano Cooperativo<br>\n\n        Enviar comprovante de pagamento<br>\n\n\n\n      </p>\n\n    </ion-card-content>\n\n    <button ion-button clear (click)="presentActionSheet()">Primary Clear</button>\n\n  </ion-card><br><br>\n\n  <h3> Contato Financeiro</h3>\n\n  <p>Email: financeiro@cpc.org.br<br>\n\n    Tel:(61) 9 9932-8910 (WhatsApp)<br> </p>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\financeiro\financeiro.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
     ], FinanceiroPage);
     return FinanceiroPage;
 }());
@@ -442,13 +535,13 @@ var FinanceiroPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 135:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InscriçõesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InglesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -461,39 +554,39 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the InscriçõesPage page.
+ * Generated class for the InglesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var InscriçõesPage = /** @class */ (function () {
-    function InscriçõesPage(navCtrl, navParams) {
+var InglesPage = /** @class */ (function () {
+    function InglesPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    InscriçõesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad InscriçõesPage');
+    InglesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad InglesPage');
     };
-    InscriçõesPage = __decorate([
+    InglesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-inscrições',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\inscrições\inscrições.html"*/'<!--\n\n  Generated template for the InscriçõesPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Inscrições</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\inscrições\inscrições.html"*/,
+            selector: 'page-ingles',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\ingles\ingles.html"*/'<!--\n  Generated template for the InglesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Ingles</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\ingles\ingles.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
-    ], InscriçõesPage);
-    return InscriçõesPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], InglesPage);
+    return InglesPage;
 }());
 
-//# sourceMappingURL=inscrições.js.map
+//# sourceMappingURL=ingles.js.map
 
 /***/ }),
 
-/***/ 136:
+/***/ 138:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -531,9 +624,9 @@ var OrePage = /** @class */ (function () {
     };
     OrePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-ore',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\ore\ore.html"*/'<!--\n\n  Generated template for the OrePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Ore+</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h2>Mais oração, mais poder.</h2><br>\n\n  <h3>Motivos de oração desta semana</h3><br>\n\n  <ion-card>\n\n    <img src="assets/imgs/f.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Pelos Pastores\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <h3>Faça seu pedido que nossa rede de intercessores estará orando por você</h3>\n\n  <ion-list>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Nome</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Igreja</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Pedido</ion-label>\n\n      <ion-input type="textarea"></ion-input>\n\n    </ion-item>\n\n    <br>\n\n    <button ion-button color="light" round (click)="showAlert()">Enviar Pedido</button>\n\n  </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\ore\ore.html"*/,
+            selector: 'page-ore',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\ore\ore.html"*/'<!--\n\n  Generated template for the OrePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Ore+</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h2>Mais oração, mais poder.</h2><br>\n\n  <h3>Motivos de oração desta semana</h3><br>\n\n  <ion-card>\n\n    <img src="assets/imgs/f.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Pelos Pastores\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <h3>Faça seu pedido que nossa rede de intercessores estará orando por você</h3>\n\n  <ion-list>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Nome</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Igreja</ion-label>\n\n      <ion-input type="text"></ion-input>\n\n    </ion-item>\n\n\n\n    <ion-item>\n\n      <ion-label floating>Pedido</ion-label>\n\n      <ion-input type="textarea"></ion-input>\n\n    </ion-item>\n\n    <br>\n\n    <button ion-button color="light" round (click)="showAlert()">Enviar Pedido</button>\n\n  </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\ore\ore.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], OrePage);
     return OrePage;
 }());
@@ -542,13 +635,13 @@ var OrePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 137:
+/***/ 139:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OrganizacoesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -576,9 +669,9 @@ var OrganizacoesPage = /** @class */ (function () {
     };
     OrganizacoesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-organizacoes',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\organizacoes\organizacoes.html"*/'<!--\n\n  Generated template for the OrganizacoesPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Organizações</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h2>Organizações auxiliares da CBPC</h2>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/jum.png" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Juventude que Move Brasilia\n\n      </ion-card-title>\n\n      <p>\n\n        Programações de Jovens e Adolescentes<br><br>\n\n        Tel: (61) 9 8124-6567\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/prs.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Ordem dos Pastores Batista de Brasilia\n\n      </ion-card-title>\n\n      <p>\n\n        Carteira da Ordem, pesquisa de pastores<br><br>\n\n        E-mail: opbbdf@gmail.com<br>\n\n        Tel: (61) 3349-6898\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/uhom.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        União de Homens Batistas do Planalto Central\n\n      </ion-card-title>\n\n      <p>\n\n        Coral do homens do Planalto Central, entre outros eventos<br><br>\n\n        E-mail: homensbatistasdf@gmail.com<br>\n\n        Tel: (61) 3025-2789\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/ufem.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        União Feminina Missionária Batista do Planalto Central\n\n      </ion-card-title>\n\n      <p>\n\n        Literaturas, Bíblias, Camisetas das campanhas de missões e muito mais<br><br>\n\n        Tel: (61) 9 8667-6760\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\organizacoes\organizacoes.html"*/,
+            selector: 'page-organizacoes',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\organizacoes\organizacoes.html"*/'<!--\n\n  Generated template for the OrganizacoesPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Organizações</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h2>Organizações auxiliares da CBPC</h2>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/jum.png" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Juventude que Move Brasilia\n\n      </ion-card-title>\n\n      <p>\n\n        Programações de Jovens e Adolescentes<br><br>\n\n        Tel: (61) 9 8124-6567\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/prs.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        Ordem dos Pastores Batista de Brasilia\n\n      </ion-card-title>\n\n      <p>\n\n        Carteira da Ordem, pesquisa de pastores<br><br>\n\n        E-mail: opbbdf@gmail.com<br>\n\n        Tel: (61) 3349-6898\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/uhom.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        União de Homens Batistas do Planalto Central\n\n      </ion-card-title>\n\n      <p>\n\n        Coral do homens do Planalto Central, entre outros eventos<br><br>\n\n        E-mail: homensbatistasdf@gmail.com<br>\n\n        Tel: (61) 3025-2789\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/ufem.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        União Feminina Missionária Batista do Planalto Central\n\n      </ion-card-title>\n\n      <p>\n\n        Literaturas, Bíblias, Camisetas das campanhas de missões e muito mais<br><br>\n\n        Tel: (61) 9 8667-6760\n\n      </p>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\organizacoes\organizacoes.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], OrganizacoesPage);
     return OrganizacoesPage;
 }());
@@ -587,13 +680,13 @@ var OrganizacoesPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 138:
+/***/ 140:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VocatioPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VocatioIgrejaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -606,33 +699,149 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
+ * Generated class for the VocatioIgrejaPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var VocatioIgrejaPage = /** @class */ (function () {
+    function VocatioIgrejaPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    VocatioIgrejaPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad VocatioIgrejaPage');
+    };
+    VocatioIgrejaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-vocatio-igreja',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\vocatio-igreja\vocatio-igreja.html"*/'<!--\n  Generated template for the VocatioIgrejaPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>Vocatio-igreja</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\vocatio-igreja\vocatio-igreja.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], VocatioIgrejaPage);
+    return VocatioIgrejaPage;
+}());
+
+//# sourceMappingURL=vocatio-igreja.js.map
+
+/***/ }),
+
+/***/ 141:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VocatioPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cfo_cfo__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__capelania_capelania__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ingles_ingles__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__vocatio_igreja_vocatio_igreja__ = __webpack_require__(140);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
  * Generated class for the VocatioPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 var VocatioPage = /** @class */ (function () {
-    function VocatioPage(navCtrl, navParams) {
+    function VocatioPage(navCtrl, navParams, modalCtrl) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.modalCtrl = modalCtrl;
     }
     VocatioPage.prototype.ionViewDidLoad = function () {
         console.log('ionViewDidLoad VocatioPage');
     };
+    VocatioPage.prototype.goToCfo = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__cfo_cfo__["a" /* CfoPage */]);
+        modal.present();
+    };
+    VocatioPage.prototype.goToCapelania = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__capelania_capelania__["a" /* CapelaniaPage */]);
+        modal.present();
+    };
+    VocatioPage.prototype.goToIngles = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_4__ingles_ingles__["a" /* InglesPage */]);
+        modal.present();
+    };
+    VocatioPage.prototype.goToVocIgreja = function () {
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_5__vocatio_igreja_vocatio_igreja__["a" /* VocatioIgrejaPage */]);
+        modal.present();
+    };
     VocatioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vocatio',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\vocatio\vocatio.html"*/'<!--\n\n  Generated template for the VocatioPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Vocatio</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  \n\n  <h2>Cursos do Vocatio</h2>\n\n\n\n\n\n    <ion-card>\n\n        <img src="assets/imgs/b.jpg"/>\n\n        <ion-card-content>\n\n          <ion-card-title>\n\n            Curso de Formação de Obreiros (CFO)\n\n            </ion-card-title>\n\n          <p>\n\n            The most popular industrial group ever, and largely\n\n            responsible for bringing the music to a mass audience.\n\n          </p>\n\n        </ion-card-content>\n\n      </ion-card><br><br>\n\n\n\n\n\n      <ion-card>\n\n          <img src="assets/imgs/c.jpg"/>\n\n          <ion-card-content>\n\n            <ion-card-title>\n\n              Capelania\n\n              </ion-card-title>\n\n            <p>\n\n              The most popular industrial group ever, and largely\n\n              responsible for bringing the music to a mass audience.\n\n            </p>\n\n          </ion-card-content>\n\n        </ion-card><br><br>\n\n        \n\n\n\n        <ion-card>\n\n            <img src="assets/imgs/d.jpg"/>\n\n            <ion-card-content>\n\n              <ion-card-title>\n\n                Ingles Pratico\n\n                </ion-card-title>\n\n              <p>\n\n                The most popular industrial group ever, and largely\n\n                responsible for bringing the music to a mass audience.\n\n              </p>\n\n            </ion-card-content>\n\n          </ion-card><br><br>\n\n\n\n          <ion-card>\n\n              <img src="assets/imgs/e.jpg"/>\n\n              <ion-card-content>\n\n                <ion-card-title>\n\n                  Vocatio na Igreja\n\n                  </ion-card-title>\n\n                <p>\n\n                  The most popular industrial group ever, and largely\n\n                  responsible for bringing the music to a mass audience.\n\n                </p>\n\n              </ion-card-content>\n\n            </ion-card><br><br>\n\n            \n\n           \n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\vocatio\vocatio.html"*/,
+            selector: 'page-vocatio',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\vocatio\vocatio.html"*/'<!--\n\n  Generated template for the VocatioPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Vocatio</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  \n\n  <h2>Cursos do Vocatio</h2>\n\n\n\n\n\n    <ion-card class="curso" (click)="goToCfo()" >\n\n        <img src="assets/imgs/b.jpg"/>\n\n        <ion-card-content>\n\n          <ion-card-title>\n\n            Curso de Formação de Obreiros (CFO)\n\n            </ion-card-title>\n\n          <p>\n\n            The most popular industrial group ever, and largely\n\n            responsible for bringing the music to a mass audience.\n\n          </p>\n\n        </ion-card-content>\n\n      </ion-card><br><br>\n\n\n\n\n\n      <ion-card class="curso" (click)="goToCapelania()">\n\n          <img src="assets/imgs/c.jpg"/>\n\n          <ion-card-content>\n\n            <ion-card-title>\n\n              Capelania\n\n              </ion-card-title>\n\n            <p>\n\n              The most popular industrial group ever, and largely\n\n              responsible for bringing the music to a mass audience.\n\n            </p>\n\n          </ion-card-content>\n\n        </ion-card><br><br>\n\n        \n\n\n\n        <ion-card class="curso" (click)="goToIngles()">\n\n            <img src="assets/imgs/d.jpg"/>\n\n            <ion-card-content>\n\n              <ion-card-title>\n\n                Ingles Pratico\n\n                </ion-card-title>\n\n              <p>\n\n                The most popular industrial group ever, and largely\n\n                responsible for bringing the music to a mass audience.\n\n              </p>\n\n            </ion-card-content>\n\n          </ion-card><br><br>\n\n\n\n          <ion-card class="curso" (click)="goToVocIgreja()">\n\n              <img src="assets/imgs/e.jpg"/>\n\n              <ion-card-content>\n\n                <ion-card-title>\n\n                  Vocatio na Igreja\n\n                  </ion-card-title>\n\n                <p>\n\n                  The most popular industrial group ever, and largely\n\n                  responsible for bringing the music to a mass audience.\n\n                </p>\n\n              </ion-card-content>\n\n            </ion-card><br><br>\n\n            \n\n           \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\vocatio\vocatio.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]) === "function" && _c || Object])
     ], VocatioPage);
     return VocatioPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=vocatio.js.map
 
 /***/ }),
 
-/***/ 149:
+/***/ 142:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InscriçõesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the InscriçõesPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var InscriçõesPage = /** @class */ (function () {
+    function InscriçõesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    InscriçõesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad InscriçõesPage');
+    };
+    InscriçõesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-inscrições',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\inscrições\inscrições.html"*/'<!--\n\n  Generated template for the InscriçõesPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n      <button ion-button menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>Inscrições</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\inscrições\inscrições.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], InscriçõesPage);
+    return InscriçõesPage;
+}());
+
+//# sourceMappingURL=inscrições.js.map
+
+/***/ }),
+
+/***/ 153:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -645,67 +854,83 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 149;
+webpackEmptyAsyncContext.id = 153;
 
 /***/ }),
 
-/***/ 193:
+/***/ 197:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/about/about.module": [
-		417,
-		12
+		421,
+		16
 	],
 	"../pages/agenda/agenda.module": [
-		418,
-		11
+		422,
+		15
 	],
 	"../pages/amor-que-faz/amor-que-faz.module": [
-		419,
-		10
+		423,
+		14
 	],
 	"../pages/atualize/atualize.module": [
-		420,
-		9
+		424,
+		13
+	],
+	"../pages/capelania/capelania.module": [
+		425,
+		12
+	],
+	"../pages/cfo/cfo.module": [
+		426,
+		11
 	],
 	"../pages/comprovante-p/comprovante-p.module": [
-		421,
-		8
+		427,
+		10
 	],
 	"../pages/contato/contato.module": [
-		422,
-		7
+		428,
+		9
 	],
 	"../pages/financeiro/financeiro.module": [
-		423,
-		6
+		429,
+		8
 	],
 	"../pages/info-igreja/info-igreja.module": [
-		429,
-		5
+		430,
+		7
+	],
+	"../pages/ingles/ingles.module": [
+		431,
+		6
 	],
 	"../pages/inscrições/inscrições.module": [
-		424,
-		4
+		437,
+		5
 	],
 	"../pages/intro/intro.module": [
-		213
+		217
 	],
 	"../pages/noticia/noticia.module": [
-		425,
-		3
+		432,
+		4
 	],
 	"../pages/ore/ore.module": [
-		426,
-		2
+		433,
+		3
 	],
 	"../pages/organizacoes/organizacoes.module": [
-		427,
+		434,
+		2
+	],
+	"../pages/vocatio-igreja/vocatio-igreja.module": [
+		435,
 		1
 	],
 	"../pages/vocatio/vocatio.module": [
-		428,
+		436,
 		0
 	]
 };
@@ -720,20 +945,20 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 193;
+webpackAsyncContext.id = 197;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 213:
+/***/ 217:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "IntroPageModule", function() { return IntroPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__intro__ = __webpack_require__(218);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -763,14 +988,14 @@ var IntroPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 214:
+/***/ 218:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IntroPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(215);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(219);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -802,9 +1027,9 @@ var IntroPage = /** @class */ (function () {
     };
     IntroPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-intro',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\intro\intro.html"*/'<!--\n\n  Generated template for the IntroPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n\n\n<ion-content>\n\n\n\n  <ion-slides pager>\n\n\n\n    <ion-slide >\n\n      <img src="assets/imgs/intro1.jpg" alt="">\n\n    \n\n    </ion-slide>\n\n\n\n    <ion-slide >\n\n        <img src="assets/imgs/intro2.jpg" alt="">\n\n     \n\n      <h3>Porque Tudo Começa com Oração</h3>\n\n    </ion-slide>\n\n\n\n    <ion-slide >\n\n        <img src="assets/imgs/intro3.jpg" alt="">\n\n        \n\n        <h3>Capacitação</h3>\n\n      </ion-slide>\n\n  \n\n      <ion-slide >\n\n          <img src="assets/imgs/intro4.jpg" alt="">\n\n        \n\n        <h3>Toda e qualquer expressão missionária do Povo Batista do Planalto Central</h3>\n\n      </ion-slide>\n\n\n\n    \n\n    <ion-slide >\n\n       \n\n      <p >isso e CBPC</p>\n\n      <img src="assets/imgs/intro5.jpg" >\n\n      \n\n      <p class="teste" (click)="iniciarapp()" >Continuar</p>\n\n    </ion-slide>\n\n\n\n  </ion-slides>\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\intro\intro.html"*/,
+            selector: 'page-intro',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\intro\intro.html"*/'<!--\n\n  Generated template for the IntroPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n\n\n\n\n<ion-content>\n\n\n\n  <ion-slides pager>\n\n\n\n    <ion-slide >\n\n      <img src="assets/imgs/intro1.jpg" alt="">\n\n    \n\n    </ion-slide>\n\n\n\n    <ion-slide >\n\n        <img src="assets/imgs/intro2.jpg" alt="">\n\n     \n\n      <h3>Porque Tudo Começa com Oração</h3>\n\n    </ion-slide>\n\n\n\n    <ion-slide >\n\n        <img src="assets/imgs/intro3.jpg" alt="">\n\n        \n\n        <h3>Capacitação</h3>\n\n      </ion-slide>\n\n  \n\n      <ion-slide >\n\n          <img src="assets/imgs/intro4.jpg" alt="">\n\n        \n\n        <h3>Toda e qualquer expressão missionária do Povo Batista do Planalto Central</h3>\n\n      </ion-slide>\n\n\n\n    \n\n    <ion-slide >\n\n       \n\n      <p >isso e CBPC</p>\n\n      <img src="assets/imgs/intro5.jpg" >\n\n      \n\n      <p class="teste" (click)="iniciarapp()" >Continuar</p>\n\n    </ion-slide>\n\n\n\n  </ion-slides>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\intro\intro.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], IntroPage);
     return IntroPage;
 }());
@@ -813,13 +1038,13 @@ var IntroPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 215:
+/***/ 219:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__noticia_noticia__ = __webpack_require__(66);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -856,9 +1081,9 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>CBPC</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <ion-list>\n\n\n\n    <p> A CBPC quer conhecer mais você. <br> qual o seu nome?\n\n    </p>\n\n    <ion-item>\n\n      <ion-label floating>Seu Nome</ion-label>\n\n      <ion-input [(ngModel)]="name"  type="text" value=""></ion-input>\n\n    </ion-item>\n\n  </ion-list>\n\n    <button ion-button secondary (click)="Notificacao()">Enviar</button>\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>CBPC</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <ion-list>\n\n\n\n    <p> A CBPC quer conhecer mais você. <br> qual o seu nome?\n\n    </p>\n\n    <ion-item>\n\n      <ion-label floating>Seu Nome</ion-label>\n\n      <ion-input [(ngModel)]="name"  type="text" value=""></ion-input>\n\n    </ion-item>\n\n  </ion-list>\n\n    <button ion-button secondary (click)="Notificacao()">Enviar</button>\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\home\home.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]])
     ], HomePage);
     return HomePage;
 }());
@@ -867,13 +1092,13 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 257:
+/***/ 261:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -913,9 +1138,9 @@ var ListPage = /** @class */ (function () {
     };
     ListPage = ListPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>nada</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\list\list.html"*/
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>nada</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\list\list.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
     ], ListPage);
     return ListPage;
     var ListPage_1;
@@ -925,13 +1150,13 @@ var ListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 258:
+/***/ 262:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(259);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(270);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -939,42 +1164,50 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 266:
+/***/ 270:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(411);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(215);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__ = __webpack_require__(256);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(415);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(261);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__ = __webpack_require__(260);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_amor_que_faz_amor_que_faz__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_vocatio_vocatio__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_ore_ore__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_financeiro_financeiro__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_vocatio_vocatio__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_ore_ore__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_financeiro_financeiro__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_agenda_agenda__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_inscri_es_inscri_es__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_inscri_es_inscri_es__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_atualize_atualize__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_contato_contato__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_organizacoes_organizacoes__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_contato_contato__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_organizacoes_organizacoes__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_noticia_noticia__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_about_about__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_comprovante_p_comprovante_p__ = __webpack_require__(132);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_moovie_moovie__ = __webpack_require__(413);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_intro_intro_module__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_comprovante_p_comprovante_p__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__providers_moovie_moovie__ = __webpack_require__(417);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_intro_intro_module__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_info_igreja_info_igreja__ = __webpack_require__(131);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_servidor_servidor__ = __webpack_require__(97);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_cfo_cfo__ = __webpack_require__(133);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_capelania_capelania__ = __webpack_require__(132);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__pages_ingles_ingles__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_vocatio_igreja_vocatio_igreja__ = __webpack_require__(140);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
 
 
 
@@ -1022,6 +1255,10 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_about_about__["a" /* AboutPage */],
                 __WEBPACK_IMPORTED_MODULE_20__pages_comprovante_p_comprovante_p__["a" /* ComprovantePPage */],
                 __WEBPACK_IMPORTED_MODULE_23__pages_info_igreja_info_igreja__["a" /* InfoIgrejaPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_cfo_cfo__["a" /* CfoPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_capelania_capelania__["a" /* CapelaniaPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_ingles_ingles__["a" /* InglesPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_vocatio_igreja_vocatio_igreja__["a" /* VocatioIgrejaPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1031,16 +1268,20 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/agenda/agenda.module#AgendaPageModule', name: 'AgendaPage', segment: 'agenda', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/amor-que-faz/amor-que-faz.module#AmorQueFazPageModule', name: 'AmorQueFazPage', segment: 'amor-que-faz', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/atualize/atualize.module#AtualizePageModule', name: 'AtualizePage', segment: 'atualize', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/capelania/capelania.module#CapelaniaPageModule', name: 'CapelaniaPage', segment: 'capelania', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cfo/cfo.module#CfoPageModule', name: 'CfoPage', segment: 'cfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/comprovante-p/comprovante-p.module#ComprovantePPageModule', name: 'ComprovantePPage', segment: 'comprovante-p', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contato/contato.module#ContatoPageModule', name: 'ContatoPage', segment: 'contato', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/financeiro/financeiro.module#FinanceiroPageModule', name: 'FinanceiroPage', segment: 'financeiro', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/inscrições/inscrições.module#InscriçõesPageModule', name: 'InscriçõesPage', segment: 'inscrições', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/info-igreja/info-igreja.module#InfoIgrejaPageModule', name: 'InfoIgrejaPage', segment: 'info-igreja', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/ingles/ingles.module#InglesPageModule', name: 'InglesPage', segment: 'ingles', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/intro/intro.module#IntroPageModule', name: 'IntroPage', segment: 'intro', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/noticia/noticia.module#NoticiaPageModule', name: 'NoticiaPage', segment: 'noticia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/ore/ore.module#OrePageModule', name: 'OrePage', segment: 'ore', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/organizacoes/organizacoes.module#OrganizacoesPageModule', name: 'OrganizacoesPage', segment: 'organizacoes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/vocatio-igreja/vocatio-igreja.module#VocatioIgrejaPageModule', name: 'VocatioIgrejaPage', segment: 'vocatio-igreja', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/vocatio/vocatio.module#VocatioPageModule', name: 'VocatioPage', segment: 'vocatio', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/info-igreja/info-igreja.module#InfoIgrejaPageModule', name: 'InfoIgrejaPage', segment: 'info-igreja', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/inscrições/inscrições.module#InscriçõesPageModule', name: 'InscriçõesPage', segment: 'inscrições', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_22__pages_intro_intro_module__["IntroPageModule"],
@@ -1064,6 +1305,10 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_about_about__["a" /* AboutPage */],
                 __WEBPACK_IMPORTED_MODULE_20__pages_comprovante_p_comprovante_p__["a" /* ComprovantePPage */],
                 __WEBPACK_IMPORTED_MODULE_23__pages_info_igreja_info_igreja__["a" /* InfoIgrejaPage */],
+                __WEBPACK_IMPORTED_MODULE_25__pages_cfo_cfo__["a" /* CfoPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_capelania_capelania__["a" /* CapelaniaPage */],
+                __WEBPACK_IMPORTED_MODULE_27__pages_ingles_ingles__["a" /* InglesPage */],
+                __WEBPACK_IMPORTED_MODULE_28__pages_vocatio_igreja_vocatio_igreja__["a" /* VocatioIgrejaPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1081,29 +1326,29 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 411:
+/***/ 415:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(255);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(256);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_list_list__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(259);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(260);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_list_list__ = __webpack_require__(261);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_amor_que_faz_amor_que_faz__ = __webpack_require__(129);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_vocatio_vocatio__ = __webpack_require__(138);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ore_ore__ = __webpack_require__(136);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_financeiro_financeiro__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_vocatio_vocatio__ = __webpack_require__(141);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ore_ore__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_financeiro_financeiro__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_agenda_agenda__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_inscri_es_inscri_es__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_inscri_es_inscri_es__ = __webpack_require__(142);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_atualize_atualize__ = __webpack_require__(130);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contato_contato__ = __webpack_require__(133);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_organizacoes_organizacoes__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_contato_contato__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_organizacoes_organizacoes__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_noticia_noticia__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_about_about__ = __webpack_require__(127);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_intro_intro__ = __webpack_require__(214);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_config_config__ = __webpack_require__(412);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_intro_intro__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__providers_config_config__ = __webpack_require__(416);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1178,16 +1423,16 @@ var MyApp = /** @class */ (function () {
         this.nav.setRoot(page.component);
     };
     __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Nav */])
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>CBPC Sempre com Você</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\app\app.html"*/,
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>CBPC Sempre com Você</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\app\app.html"*/,
             providers: [
                 __WEBPACK_IMPORTED_MODULE_17__providers_config_config__["a" /* ConfigProvider */]
             ]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Platform */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
             __WEBPACK_IMPORTED_MODULE_17__providers_config_config__["a" /* ConfigProvider */]])
@@ -1199,7 +1444,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 412:
+/***/ 416:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1257,12 +1502,12 @@ var ConfigProvider = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 413:
+/***/ 417:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MoovieProvider; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common_http__ = __webpack_require__(418);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1307,7 +1552,7 @@ var MoovieProvider = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NoticiaPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__ = __webpack_require__(97);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1340,10 +1585,10 @@ var NoticiaPage = /** @class */ (function () {
     };
     NoticiaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-noticia',template:/*ion-inline-start:"D:\cbpcapp\ionic-app-cbpc\src\pages\noticia\noticia.html"*/'<!--\n\n  Generated template for the NoticiaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Noticia</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h1>olá {{ NomeUsr }}</h1>\n\n\n\n    \n\n  \n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/l.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        o Mal dos Games em ecesso\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n      <ion-item>\n\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n\n        Followers\n\n        <ion-badge item-end>260k</ion-badge>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/p.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        o Mal dos Games em ecesso\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n      <ion-item>\n\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n\n        Followers\n\n        <ion-badge item-end>260k</ion-badge>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/a.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        o Mal dos Games em ecesso\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n      <ion-item>\n\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n\n        Followers\n\n        <ion-badge item-end>260k</ion-badge>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n\n\n\n\n  <ion-card class="lugarcerto">\n\n    <img width="500px" src="assets/imgs/ore-thumb.png" />\n\n    <div class="card-title">Ore+</div>\n\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n\n    <img src="assets/imgs/voc-thumb.png" />\n\n    <div class="card-title">Vocatio</div>\n\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n\n    <img src="assets/imgs/aqf-thumb.png" />\n\n    <div class="card-title">Amor Que Faz</div>\n\n  </ion-card>\n\n\n\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"D:\cbpcapp\ionic-app-cbpc\src\pages\noticia\noticia.html"*/,
+            selector: 'page-noticia',template:/*ion-inline-start:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\noticia\noticia.html"*/'<!--\n\n  Generated template for the NoticiaPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Noticia</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <h1>olá {{ NomeUsr }}</h1>\n\n\n\n    \n\n  \n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/l.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        o Mal dos Games em ecesso\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n      <ion-item>\n\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n\n        Followers\n\n        <ion-badge item-end>260k</ion-badge>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/p.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        o Mal dos Games em ecesso\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n      <ion-item>\n\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n\n        Followers\n\n        <ion-badge item-end>260k</ion-badge>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n  <ion-card>\n\n    <img src="assets/imgs/a.jpg" />\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n        o Mal dos Games em ecesso\n\n      </ion-card-title>\n\n      <p>\n\n        The most popular industrial group ever, and largely\n\n        responsible for bringing the music to a mass audience.\n\n      </p>\n\n      <ion-item>\n\n        <ion-icon name="logo-facebook" item-start></ion-icon>\n\n        Followers\n\n        <ion-badge item-end>260k</ion-badge>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n\n\n\n\n  <ion-card class="lugarcerto">\n\n    <img width="500px" src="assets/imgs/ore-thumb.png" />\n\n    <div class="card-title">Ore+</div>\n\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n\n    <img src="assets/imgs/voc-thumb.png" />\n\n    <div class="card-title">Vocatio</div>\n\n  </ion-card>\n\n\n\n  <ion-card class="lugarcerto">\n\n    <img src="assets/imgs/aqf-thumb.png" />\n\n    <div class="card-title">Amor Que Faz</div>\n\n  </ion-card>\n\n\n\n\n\n  <button ion-button secondary menuToggle>Toggle Menu</button>\n\n\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\rebca\novoapp\ionic\ionic-app-cbpc\src\pages\noticia\noticia.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_2__providers_servidor_servidor__["a" /* ServidorProvider */]])
     ], NoticiaPage);
     return NoticiaPage;
@@ -1359,8 +1604,8 @@ var NoticiaPage = /** @class */ (function () {
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServidorProvider; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators__ = __webpack_require__(292);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operators___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operators__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1400,5 +1645,5 @@ var ServidorProvider = /** @class */ (function () {
 
 /***/ })
 
-},[258]);
+},[262]);
 //# sourceMappingURL=main.js.map

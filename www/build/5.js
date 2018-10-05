@@ -1,14 +1,14 @@
 webpackJsonp([5],{
 
-/***/ 429:
+/***/ 437:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InfoIgrejaPageModule", function() { return InfoIgrejaPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InscriçõesPageModule", function() { return InscriçõesPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__info_igreja__ = __webpack_require__(131);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__inscri_es__ = __webpack_require__(142);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var InfoIgrejaPageModule = /** @class */ (function () {
-    function InfoIgrejaPageModule() {
+var InscriçõesPageModule = /** @class */ (function () {
+    function InscriçõesPageModule() {
     }
-    InfoIgrejaPageModule = __decorate([
+    InscriçõesPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__info_igreja__["a" /* InfoIgrejaPage */],
+                __WEBPACK_IMPORTED_MODULE_2__inscri_es__["a" /* InscriçõesPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__info_igreja__["a" /* InfoIgrejaPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__inscri_es__["a" /* InscriçõesPage */]),
             ],
         })
-    ], InfoIgrejaPageModule);
-    return InfoIgrejaPageModule;
+    ], InscriçõesPageModule);
+    return InscriçõesPageModule;
 }());
 
-//# sourceMappingURL=info-igreja.module.js.map
+//# sourceMappingURL=inscrições.module.js.map
 
 /***/ })
 

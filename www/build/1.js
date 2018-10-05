@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 427:
+/***/ 435:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OrganizacoesPageModule", function() { return OrganizacoesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VocatioIgrejaPageModule", function() { return VocatioIgrejaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__organizacoes__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__vocatio_igreja__ = __webpack_require__(140);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var OrganizacoesPageModule = /** @class */ (function () {
-    function OrganizacoesPageModule() {
+var VocatioIgrejaPageModule = /** @class */ (function () {
+    function VocatioIgrejaPageModule() {
     }
-    OrganizacoesPageModule = __decorate([
+    VocatioIgrejaPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__organizacoes__["a" /* OrganizacoesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__vocatio_igreja__["a" /* VocatioIgrejaPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__organizacoes__["a" /* OrganizacoesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__vocatio_igreja__["a" /* VocatioIgrejaPage */]),
             ],
         })
-    ], OrganizacoesPageModule);
-    return OrganizacoesPageModule;
+    ], VocatioIgrejaPageModule);
+    return VocatioIgrejaPageModule;
 }());
 
-//# sourceMappingURL=organizacoes.module.js.map
+//# sourceMappingURL=vocatio-igreja.module.js.map
 
 /***/ })
 
