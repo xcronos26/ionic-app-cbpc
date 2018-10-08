@@ -17,11 +17,31 @@
 
 
 <ion-content padding>
+ 
 
   <h1>olá {{ NomeUsr }}</h1>
 
-    
-  
+
+  <ion-list>
+    <button ion-item *ngFor="let noticia of noticiasWP">
+        <ion-card>
+            <ion-card-header>
+                {{noticia.title.rendered}}
+            </ion-card-header>
+            <ion-card-content>
+                {{noticia.content.rendered}}
+            </ion-card-content>
+          </ion-card>
+       
+           <!-- <img src="{{noticia._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}}" /> -->
+            
+
+
+
+    </button>
+  </ion-list>
+
+
 
   <ion-card>
     <img src="assets/imgs/l.jpg" />
