@@ -25727,8 +25727,6 @@ page-intro .teste {
 page-noticia .lugarcerto {
   display: inline-block;
   width: 20%;
-  -webkit-box-shadow: none;
-  box-shadow: none;
 }
 
 page-noticia ion-card {
@@ -25744,6 +25742,7 @@ page-noticia .card-title {
   width: 100%;
   font-weight: bold;
   color: #fff;
+  text-shadow: black 0.2em 0.2em 0.3em;
 }
 
 page-ore h2, page-ore h3 {

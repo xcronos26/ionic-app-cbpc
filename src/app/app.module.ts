@@ -31,6 +31,7 @@ import { CfoPage } from '../pages/cfo/cfo';
 import { CapelaniaPage } from '../pages/capelania/capelania';
 import { InglesPage } from '../pages/ingles/ingles';
 import { VocatioIgrejaPage } from '../pages/vocatio-igreja/vocatio-igreja';
+import { DetalheNoticiaPage } from '../pages/detalhe-noticia/detalhe-noticia';
 
 
 
@@ -55,7 +56,8 @@ import { VocatioIgrejaPage } from '../pages/vocatio-igreja/vocatio-igreja';
     CfoPage,
     CapelaniaPage,
     InglesPage,
-    VocatioIgrejaPage
+    VocatioIgrejaPage,
+    DetalheNoticiaPage
     
   ],
   imports: [
@@ -85,7 +87,8 @@ import { VocatioIgrejaPage } from '../pages/vocatio-igreja/vocatio-igreja';
     CfoPage,
     CapelaniaPage,
     InglesPage,
-    VocatioIgrejaPage
+    VocatioIgrejaPage,
+    DetalheNoticiaPage
     
   ],
   providers: [

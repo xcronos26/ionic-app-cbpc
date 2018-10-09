@@ -14,108 +14,27 @@
   </ion-navbar>
 
 </ion-header>
-
-
 <ion-content padding>
- 
-
   <h1>olá {{ NomeUsr }}</h1>
-
-
   <ion-list>
-    <button ion-item *ngFor="let noticia of noticiasWP">
-        <ion-card>
-            <ion-card-header>
-                {{noticia.title.rendered}}
-            </ion-card-header>
-            <ion-card-content>
-                {{noticia.content.rendered}}
-            </ion-card-content>
-          </ion-card>
-       
-           <!-- <img src="{{noticia._embedded['wp:featuredmedia'][0].media_details.sizes.medium.source_url}}" /> -->
-            
-
-
-
+    <button ion-item *ngFor="let noticia of noticiasWP" (click)="AbreNoticia(noticia)">
+      <ion-card>
+        
+        <img src="{{noticia._embedded['wp:featuredmedia'][0].source_url}}" />
+        <ion-card-content>
+          <ion-card-title>
+            {{noticia.title.rendered}}
+          </ion-card-title>
+          <p>
+            {{noticia.content.rendered}}
+          </p>
+          <ion-note>
+              {{noticia.modified_gmt}}
+          </ion-note>
+        </ion-card-content>
+      </ion-card>
     </button>
   </ion-list>
-
-
-
-  <ion-card>
-    <img src="assets/imgs/l.jpg" />
-    <ion-card-content>
-      <ion-card-title>
-        o Mal dos Games em ecesso
-      </ion-card-title>
-      <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-      </p>
-      <ion-item>
-        <ion-icon name="logo-facebook" item-start></ion-icon>
-        Followers
-        <ion-badge item-end>260k</ion-badge>
-      </ion-item>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/p.jpg" />
-    <ion-card-content>
-      <ion-card-title>
-        o Mal dos Games em ecesso
-      </ion-card-title>
-      <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-      </p>
-      <ion-item>
-        <ion-icon name="logo-facebook" item-start></ion-icon>
-        Followers
-        <ion-badge item-end>260k</ion-badge>
-      </ion-item>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <img src="assets/imgs/a.jpg" />
-    <ion-card-content>
-      <ion-card-title>
-        o Mal dos Games em ecesso
-      </ion-card-title>
-      <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-      </p>
-      <ion-item>
-        <ion-icon name="logo-facebook" item-start></ion-icon>
-        Followers
-        <ion-badge item-end>260k</ion-badge>
-      </ion-item>
-    </ion-card-content>
-  </ion-card>
-
-
-
-  <ion-card class="lugarcerto">
-    <img width="500px" src="assets/imgs/ore-thumb.png" />
-    <div class="card-title">Ore+</div>
-  </ion-card>
-
-  <ion-card class="lugarcerto">
-    <img src="assets/imgs/voc-thumb.png" />
-    <div class="card-title">Vocatio</div>
-  </ion-card>
-
-  <ion-card class="lugarcerto">
-    <img src="assets/imgs/aqf-thumb.png" />
-    <div class="card-title">Amor Que Faz</div>
-  </ion-card>
-
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
 
 
 </ion-content>

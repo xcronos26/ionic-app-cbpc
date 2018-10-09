@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ServidorProvider } from '../../providers/servidor/servidor';
 import { LoadingController } from 'ionic-angular';
+import { DetalheNoticiaPage } from '../detalhe-noticia/detalhe-noticia';
 
 @IonicPage()
 @Component({
@@ -10,7 +11,7 @@ import { LoadingController } from 'ionic-angular';
 })
 export class NoticiaPage {
   NomeUsr:string;
-  noticiasWP:any;
+  noticiasWP:any = [];
 
   constructor(
     public navCtrl: NavController, 
@@ -41,7 +42,13 @@ export class NoticiaPage {
     });
     loader.present();
   }
+  AbreNoticia(noticia:any){
 
+    this.navCtrl.push(DetalheNoticiaPage,{
+      noticia:noticia
+    });
+      console.log("funcionou");
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad NoticiaPage');
