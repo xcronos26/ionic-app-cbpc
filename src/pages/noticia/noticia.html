@@ -19,10 +19,14 @@
   <ion-list>
     <button ion-item *ngFor="let noticia of noticiasWP" (click)="AbreNoticia(noticia)">
       <ion-card>
-        
-        <img src="{{noticia._embedded['wp:featuredmedia'][0].source_url}}" />
+        <div *ngIf ="noticia.format == 'standard'">
+        <img src="{{noticia._embedded['wp:featuredmedia'][0].source_url}}" />         
+      </div>
+    
         <ion-card-content>
+            {{noticia.format}}
           <ion-card-title>
+            
             {{noticia.title.rendered}}
           </ion-card-title>
           <p>

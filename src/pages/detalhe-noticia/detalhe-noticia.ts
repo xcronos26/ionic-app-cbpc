@@ -15,6 +15,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DetalheNoticiaPage {
   noticia:any;
+  img:any;
+  x:any = console.log(this.noticia);
   constructor(public navCtrl: NavController,
     public navParams: NavParams,
     
@@ -22,12 +24,15 @@ export class DetalheNoticiaPage {
     this.noticia = this.navParams.get('noticia');
     
   }
-
-  
-
+ 
+  teste(){
+    eval(this.noticia);
+    console.log("teste de noticia");
+    this.x = this.noticia;
+  }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DetalheNoticiaPage agora vai aparecer as noticias aqui ');
+    console.log('agora vai aparecer as noticias aqui',this.x);
   }
 
 }

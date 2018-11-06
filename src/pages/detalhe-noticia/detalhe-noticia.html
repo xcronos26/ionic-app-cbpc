@@ -5,21 +5,33 @@
   Ionic pages and navigation.
 -->
 <ion-header>
+  <script>
 
+  </script>
   <ion-navbar>
     <ion-title>{{noticia.title.rendered}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
-
 <ion-content padding>
-  <img src="{{noticia._embedded['wp:featuredmedia'][0].source_url}}" />
 
+  <div *ngIf="noticia.format == 'standard'">
+    <img src="{{noticia._embedded['wp:featuredmedia'][0].source_url}}" />asas
+  </div>
   <p>
-    {{noticia.content.rendered}}
+    {{x}}
+
+    "{{noticia.content.rendered}}"
   </p>
   <h3><a href="{{noticia.link}}">Saiba mais</a></h3>
   <!-- Add card content here! -->
 
 </ion-content>
+
+
+<script >
+  var x = "{{noticia.content.rendered}}";
+  eval(x);
+  console.log("teste")
+  </script>
